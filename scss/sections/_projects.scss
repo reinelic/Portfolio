@@ -1,0 +1,10 @@
+@use '../custom';
+
+#project {
+  background-color: greenyellow;
+  height: 200px;
+
+  .project_item {
+    background-color: custom.$vivid;
+  }
+}

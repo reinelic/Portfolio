@@ -3,13 +3,9 @@ $purple: #561d5e;
 $vivid: #ec0a42;
 $gray: #5f7470;
 $white: #fffcff;
-$primary: $purple;
-$secondary: $gray;
-
-#hero {
-  height: 300px;
-  background-color: $white;
-}
+$primary: $vivid;
+$secondary: $vivid;
+$cyan: blue;
 
 //IMPORT BOOTSTRAP
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
