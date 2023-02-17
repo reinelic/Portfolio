@@ -1,6 +1,19 @@
 // COLOR THEMING
 // $purple: #561d5e !important;
-$vivid: #ec0a42 !important;
+
+$vivid: #9ad7e8;
 $gray: #7f7f7f;
 $white: #fffcff;
 $primary: $vivid !important;
+$p: $vivid !important;
+
+// spacers
+$spacer: 8px !default;
+$spacers: (
+  0: 0,
+  1: $spacer * 2,
+  2: $spacer * 3,
+  3: $spacer * 4,
+  4: $spacer * 4,
+  5: $spacer * 6,
+) !default;
