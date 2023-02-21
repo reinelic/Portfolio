@@ -11541,15 +11541,14 @@ fieldset:disabled .btn {
 /*# sourceMappingURL=style.css.map */
 
 .image {
-  /* background-color: #0000d9; */
   background-image: url('/assets/images/hero3D.png');
   background-size: contain;
   background-repeat: no-repeat;
   width: 802px;
   height: 601px;
-  transform: perspective(5000px) rotateX(40deg) rotateY(40deg);
+  transform: perspective(4000px) rotateX(35deg) rotateY(40deg);
   position: relative;
-  left: 4rem;
+  left: 6rem;
   transform-style: preserve-3d;
   border-radius: 32px;
 }
@@ -11562,16 +11561,66 @@ fieldset:disabled .btn {
 }
 
 .image::before {
-  inset: -0.25rem;
+  inset: -0.15rem;
   background-color: #3d8699;
-  transform: translateZ(-10px);
+  transform: translateZ(-30px);
   filter: blur(30px);
-  opacity: 0.3;
+  opacity: 0.5;
+  height: 100%;
 }
 .image::after {
-  inset: -10px;
+  inset: -0.1rem;
   background-color: #67cfc6;
   /* background-color: #d34b53; */
 
-  transform: translateZ(-20px);
+  transform: translateZ(-70px);
+}
+
+/* Media queries */
+
+@media (max-width: 1400px) {
+  .image {
+    width: 602px;
+    height: 401px;
+    transform: perspective(6000px) rotateX(45deg) rotateY(40deg);
+  }
+
+  .image::before,
+  .image::after {
+    content: '';
+    position: absolute;
+    border-radius: inherit;
+  }
+
+  .image::before {
+    inset: -0.15rem;
+    background-color: #3d8699;
+    transform: translateZ(-30px);
+    filter: blur(40px);
+    opacity: 0.5;
+    height: 100%;
+  }
+  .image::after {
+    inset: 1rem;
+    background-color: #67cfc6;
+    /* background-color: #d34b53; */
+
+    transform: translateZ(-100px);
+  }
+}
+
+@media (max-width: 600px) {
+  .image {
+    width: 402px;
+    height: 301px;
+    left: 0;
+  }
+
+  .image::after {
+    inset: 1rem;
+    background-color: #67cfc6;
+    /* background-color: #d34b53; */
+
+    transform: translateZ(-90px);
+  }
 }
