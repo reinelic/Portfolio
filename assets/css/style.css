@@ -11534,10 +11534,10 @@ fieldset:disabled .btn {
 
 .image {
   background-image: url('/assets/images/hero3D.png');
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
+  width: 902px;
+  height: 701px;
   transform: perspective(4000px) rotateX(35deg) rotateY(40deg);
   position: relative;
   left: 6rem;
