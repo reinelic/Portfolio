@@ -1,10 +1,23 @@
-const img = document.querySelector('.image')
+import { Application } from '@splinetool/runtime'
 
-document.addEventListener('mousemove', (e) => rotateElement(e, img))
+const canvas = document.getElementById('canvas3d')
 
-const rotateElement = (event, element) => {
-  const x = event.clientX
-  const y = event.clientY
+canvas.width = 700
+canvas.height = 700
 
-  //   console.log(x, y)
-}
+const app = new Application(canvas)
+
+console.log(app)
+
+app.load('https://prod.spline.design/PmqLtt2IxkQxoICp/scene.splinecode')
+
+// const img = document.querySelector('.image')
+
+// document.addEventListener('mousemove', (e) => rotateElement(e, img))
+
+// const rotateElement = (event, element) => {
+//   const x = event.clientX
+//   const y = event.clientY
+
+//   //   console.log(x, y)
+// }

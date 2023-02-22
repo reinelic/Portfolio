@@ -11537,6 +11537,15 @@ html {
 
 /*# sourceMappingURL=style.css.map */
 
+
+
+
+#canvas3d {
+
+ position:relative;
+ left:4rem;
+}
+
 .image {
   background-image: url('/assets/images/hero3D.png');
   background-size: contain;
