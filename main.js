@@ -2,7 +2,7 @@ import { Application } from '@splinetool/runtime'
 
 const canvas = document.getElementById('canvas3d')
 
-canvas.width = 700
+canvas.width = 1024
 canvas.height = 700
 
 const app = new Application(canvas)

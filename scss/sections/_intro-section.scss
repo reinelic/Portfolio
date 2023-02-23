@@ -1,1 +1,12 @@
+@use '../custom';
 
+#hero {
+  color: white;
+
+  img {
+    position: relative;
+    top: -2rem;
+    left: 12rem;
+    width: 130%;
+  }
+}

@@ -1,16 +1,7 @@
 @use '../custom';
 
-#hero {
-  background-color: #9ad7e8;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  img {
-    width: 70%;
-    @media (max-width: 767.98px) {
-      width: 100%;
-    }
-  }
+body {
+  background-color: #05224e;
 }
 
 #skills {
