@@ -4,44 +4,6 @@ body {
   background-color: #05224e;
 }
 
-#skills {
-  height: 600px;
-  background-color: #a5dae8;
-
-  img {
-    width: 20%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .school {
-    padding: 10px;
-
-    background-color: #34e1ad;
-  }
-
-  .languages {
-    background-color: #71d3f0;
-    position: relative;
-    left: -50px;
-    top: 10px;
-    padding: 20px;
-
-    @media (max-width: 780px) {
-      position: static;
-      left: 0px;
-      top: 0px;
-    }
-  }
-
-  .logo {
-    img {
-      width: 50px;
-    }
-  }
-}
-
 #project {
   .colorblock {
     height: 400px;
@@ -49,13 +11,6 @@ body {
     top: 400px;
     z-index: -1;
     opacity: 70%;
-
-    // @media (max-width: 767.98px) {
-    //   position: absolute;
-    //   width: 100%;
-    //   height: 100%;
-    //   background-color: #5d77aa;
-    // }
   }
 
   img {
