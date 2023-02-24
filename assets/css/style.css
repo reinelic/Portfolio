@@ -11184,6 +11184,7 @@ body {
 }
 body a {
   font-size: 1.5rem;
+  text-decoration: none;
 }
 
 #hero {
@@ -11205,9 +11206,9 @@ body a {
 }
 
 #skills {
+  background-color: #0d2758;
   height: 800px;
   display: block;
-  background-color: #05224e !important;
   color: #c8dcec;
   font-size: 2rem;
   padding-top: 10rem;
