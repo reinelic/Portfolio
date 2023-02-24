@@ -11147,10 +11147,10 @@ body {
   position: absolute;
   background-color: #208f6a;
   bottom: -15%;
-  right: -4rem;
+  left: 4rem;
   z-index: -2;
   border-radius: 2rem;
-  width: 100%;
+  width: 110%;
   height: 70%;
 }
 #project .project_item {
