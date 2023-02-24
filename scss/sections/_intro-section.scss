@@ -1,16 +1,27 @@
 @use '../custom';
+@import '../variables';
 
 body {
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: 'protipo', sans-serif;
   font-size: 3rem;
+  font-weight: 400;
 
   a {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 
 #hero {
-  color: white;
+  color: #c8dcec;
+  font-size: 1.5rem;
+
+  .heroworld {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-stretch: expanded;
+    color: $secondary;
+  }
 
   img {
     position: relative;

@@ -11164,6 +11164,7 @@ body {
   position: relative;
   transform: perspective(5000px) rotateX(20deg) rotateY(-20deg);
   transform-style: preserve-3d;
+  color: #05224e !important !important;
 }
 #project .project_item .card .card-body {
   display: flex;
@@ -11177,15 +11178,24 @@ body {
 }
 
 body {
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "protipo", sans-serif;
   font-size: 3rem;
+  font-weight: 400;
 }
 body a {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 #hero {
-  color: white;
+  color: #c8dcec;
+  font-size: 1.5rem;
+}
+#hero .heroworld {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  font-stretch: expanded;
+  color: #56bc9a;
 }
 #hero img {
   position: relative;

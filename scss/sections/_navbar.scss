@@ -1,0 +1,15 @@
+@use '../custom';
+
+@import '../variables';
+.navbar {
+  font-size: 18px;
+
+  .navbar-brand {
+    position: absolute;
+    color: $secondary;
+  }
+
+  a {
+    font-size: 1rem;
+  }
+}
