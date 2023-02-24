@@ -11139,7 +11139,7 @@ body {
   position: relative;
   padding-left: 5rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin-bottom: 6rem;
 }
 #project .project_row:after {
@@ -11147,14 +11147,14 @@ body {
   position: absolute;
   background-color: #208f6a;
   bottom: -15%;
-  left: 4rem;
   z-index: -2;
   border-radius: 2rem;
-  width: 110%;
+  width: 100%;
   height: 70%;
 }
 #project .project_item {
   border-radius: 15px;
+  left: 10%;
 }
 #project .project_item .card {
   width: 358px;
