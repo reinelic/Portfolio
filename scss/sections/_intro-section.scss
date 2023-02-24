@@ -1,5 +1,14 @@
 @use '../custom';
 
+body {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 3rem;
+
+  a {
+    font-size: 2rem;
+  }
+}
+
 #hero {
   color: white;
 

@@ -46,6 +46,7 @@ body {
 
     .card {
       width: 250px;
+      border-radius: 15px;
       height: 300px;
       position: relative;
       transform: perspective(5000px) rotateX(20deg) rotateY(-20deg);
