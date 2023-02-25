@@ -1,3 +1,13 @@
 //IMPORT BOOTSTRAP
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+body {
+  .container {
+    width: 90%;
+  }
+
+  .container-fluid {
+    width: 100%;
+  }
+}

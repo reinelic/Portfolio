@@ -1,6 +1,28 @@
 @use '../custom';
 
-@media (max-width: 991px) {
+@media (max-width: 1000px) {
+  #project {
+    .project_row {
+      display: block;
+
+      .project_item {
+        width: 100%;
+        // background-color: beige;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+
+        .card {
+          width: 80%;
+          height: 70%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1160px) {
   #hero {
     img {
       position: relative;
@@ -9,12 +31,28 @@
       width: 130%;
     }
   }
+
+  #project {
+    .project_row {
+      // background-color: aqua;
+      padding-left: 0;
+      justify-content: center;
+
+      &:after {
+        content: none;
+      }
+
+      .card {
+        transform: perspective(0px) rotateX(0deg) rotateY(0deg);
+        transform-style: flat;
+      }
+    }
+  }
 }
 
-@media (max-width: 767px) {
-  #hero .image {
+@media (max-width: 768px) {
+  #hero img {
     position: relative;
-    left: -6rem;
-    top: 5rem;
+    right: -10rem;
   }
 }

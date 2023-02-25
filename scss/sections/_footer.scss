@@ -1,9 +1,118 @@
 @use '../custom';
+@import '../variables';
 
 #contact {
+  color: $secondary;
+  font-size: 1rem;
   margin-top: 10rem;
   color: white;
-  min-height: 300px;
+  min-height: 500px;
   width: 100%;
-  background-color: #0d2758;
+  background-color: #0b2556;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+  width: 100%;
+  img {
+    position: absolute;
+    right: -2rem;
+    width: 50%;
+  }
+
+  .box {
+    // border-radius: 2rem;
+    margin-top: 2rem;
+    background-color: white;
+    position: relative;
+    width: 60%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #24437e;
+    padding: 4em;
+    transform: perspective(1000px) rotateX(10px) rotateY(2px);
+
+    /* background: #fff; */
+  }
+
+  .container .box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 100%;
+    background: linear-gradient(#2f5194, #24437e, #143169);
+    filter: blur(1px);
+    z-index: 1;
+    border-radius: 10px;
+  }
+
+  .container .box::after {
+    content: '';
+    position: absolute;
+    top: 1;
+    right: -1px;
+    width: 40px;
+    height: 100%;
+    background: #0b2556;
+    filter: blur(1px);
+    z-index: 1;
+    border-radius: 10px;
+  }
+
+  .container .box .shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #24437e;
+  }
+
+  // .container .box .shadow::before {
+  //   content: '';
+  //   position: absolute;
+  //   top: 0;
+  //   left: 95%;
+  //   width: 120%;
+  //   height: 240%;
+  //   overflow: hidden;
+  //   background: linear-gradient(rgba(0, 0, 0, 0.075), transparent);
+
+  //   transform: skewX(45deg);
+  // }
+
+  // .container .box .shadow::after {
+  //   content: '';
+  //   position: absolute;
+  //   bottom: -200%;
+  //   left: calc(100% + 80px);
+  //   width: 100%;
+  //   height: 200%;
+  //   overflow: hidden;
+  //   background: linear-gradient(rgba(0, 0, 0, 0.075), transparent);
+
+  //   transform: skewX(45deg);
+  // }
+
+  .content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column-reverse;
+
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1),
+      15px 15px 15px rgba(0, 0, 0, 0.1), 20px 10px 20px rgba(0, 0, 0, 0.1),
+      50px 50px 80px rgba(0, 0, 0, 0.25), inset(3px 3px 2px #fff);
+  }
+
+  .content img {
+    width: 40%;
+    // position: relative;
+    // top: -5rem;
+  }
 }
