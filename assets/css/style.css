@@ -11274,6 +11274,10 @@ footer .image img {
   left: 5rem;
   width: 65%;
 }
+footer .email {
+  position: relative;
+  left: 2rem;
+}
 footer .box {
   position: relative;
   width: 100%;
