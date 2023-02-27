@@ -3,43 +3,76 @@
 
 #contact {
   color: $secondary;
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin-top: 10rem;
   color: white;
-  min-height: 500px;
+  height: 500px;
   width: 100%;
-  background-color: #0b2556;
+
+  background: linear-gradient(
+    90deg,
+    #143169,
+    #004076,
+    #004d7d,
+    #005a7f,
+    #00667c,
+    #007175,
+    #007b6b,
+    #1b8461
+  );
+
+  // background: linear-gradient(
+  //   90deg,
+  //   #72a7cf,
+  //   #58a4c7,
+  //   #3ca0bc,
+  //   #1c9cae,
+  //   #00979d,
+  //   #00918b,
+  //   #008b76,
+  //   #1b8461
+  // );
+  clip-path: polygon(0 35%, 100% 0, 100% 100%, 0 100%);
 }
 
 footer {
-  display: flex;
-  justify-content: center;
-  padding: 4rem;
   width: 100%;
-  img {
-    position: absolute;
-    right: -2rem;
-    width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+  // background-color: white;
+
+  .image {
+    display: flex;
+    justify-content: end;
+
+    img {
+      position: relative;
+      top: 2rem;
+      // top: 10rem;
+      left: 5rem;
+      width: 65%;
+    }
   }
 
   .box {
     // border-radius: 2rem;
-    margin-top: 2rem;
-    background-color: white;
+
     position: relative;
-    width: 60%;
-    height: 300px;
+
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #24437e;
-    padding: 4em;
-    transform: perspective(1000px) rotateX(10px) rotateY(2px);
+    // background-color: #24437e;
+    // // padding: 4em;
+    // transform: skewX(20px);
 
     /* background: #fff; */
   }
 
-  .container .box::before {
+  .box::before {
     content: '';
     position: absolute;
     top: 0;
@@ -49,10 +82,9 @@ footer {
     background: linear-gradient(#2f5194, #24437e, #143169);
     filter: blur(1px);
     z-index: 1;
-    border-radius: 10px;
   }
 
-  .container .box::after {
+  .box::after {
     content: '';
     position: absolute;
     top: 1;
@@ -65,12 +97,16 @@ footer {
     border-radius: 10px;
   }
 
-  .container .box .shadow {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: #24437e;
+  form {
+    position: relative;
+    top: 7rem;
   }
+  // .container .box .shadow {
+  //   position: absolute;
+  //   width: 100%;
+  //   height: 100%;
+  //   background-color: #24437e;
+  // }
 
   // .container .box .shadow::before {
   //   content: '';
@@ -85,7 +121,7 @@ footer {
   //   transform: skewX(45deg);
   // }
 
-  // .container .box .shadow::after {
+  // .box .shadow::after {
   //   content: '';
   //   position: absolute;
   //   bottom: -200%;
@@ -104,6 +140,7 @@ footer {
     height: 100%;
     justify-content: center;
     flex-direction: column-reverse;
+    transform: skewX(20px);
 
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1),
       15px 15px 15px rgba(0, 0, 0, 0.1), 20px 10px 20px rgba(0, 0, 0, 0.1),
