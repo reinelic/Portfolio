@@ -1,6 +1,12 @@
 @use '../custom';
 
 @media (max-width: 1000px) {
+  #hero {
+    img {
+      left: -10rem;
+      width: 10%;
+    }
+  }
   #project {
     .project_row {
       display: block;
