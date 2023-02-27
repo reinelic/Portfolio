@@ -5,22 +5,31 @@ body {
 }
 
 #project {
+  font-size: 1rem;
+  color: $secondary;
+
   .colorblock {
     height: 400px;
     background-color: #5d77aa;
     top: 400px;
     z-index: -1;
     opacity: 70%;
+    color: #f1f6f9;
   }
 
-  img {
-    width: 50%;
+  .project_icon {
+    padding-top: 4rem;
+    img {
+      width: 10%;
+      z-index: 3;
+    }
   }
   .card {
     background-color: #eff7fa;
   }
   .project_row {
     position: relative;
+    padding-top: 4rem;
     padding-left: 5rem;
     display: flex;
     justify-content: center;

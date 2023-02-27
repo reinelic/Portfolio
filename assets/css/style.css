@@ -11129,21 +11129,31 @@ body {
   background-color: #05224e;
 }
 
+#project {
+  font-size: 1rem;
+  color: #56bc9a;
+}
 #project .colorblock {
   height: 400px;
   background-color: #5d77aa;
   top: 400px;
   z-index: -1;
   opacity: 70%;
+  color: #f1f6f9;
 }
-#project img {
-  width: 50%;
+#project .project_icon {
+  padding-top: 4rem;
+}
+#project .project_icon img {
+  width: 10%;
+  z-index: 3;
 }
 #project .card {
   background-color: #eff7fa;
 }
 #project .project_row {
   position: relative;
+  padding-top: 4rem;
   padding-left: 5rem;
   display: flex;
   justify-content: center;
