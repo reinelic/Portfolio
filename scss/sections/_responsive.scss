@@ -2,9 +2,10 @@
 
 @media (max-width: 1000px) {
   #hero {
+    padding-top: 3rem;
     img {
       left: -10rem;
-      width: 10%;
+      height: 70%;
     }
   }
   #project {
@@ -60,5 +61,11 @@
   #hero img {
     position: relative;
     right: -10rem;
+  }
+
+  footer {
+    img {
+      display: none;
+    }
   }
 }

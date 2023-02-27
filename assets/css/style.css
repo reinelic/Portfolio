@@ -11278,7 +11278,7 @@ footer .email {
   top: 3rem;
   position: relative;
   left: 2rem;
-  color: #f1f6f9;
+  color: #56bc9a;
   font-weight: 700;
 }
 footer .box {
@@ -11330,9 +11330,12 @@ footer .content img {
 }
 
 @media (max-width: 1000px) {
+  #hero {
+    padding-top: 3rem;
+  }
   #hero img {
     left: -10rem;
-    width: 10%;
+    height: 70%;
   }
 
   #project .project_row {
@@ -11374,6 +11377,10 @@ footer .content img {
   #hero img {
     position: relative;
     right: -10rem;
+  }
+
+  footer img {
+    display: none;
   }
 }
 
