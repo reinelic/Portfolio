@@ -11214,8 +11214,8 @@ body a {
 #hero img {
   position: relative;
   top: -2rem;
-  left: 12rem;
-  width: 150%;
+  left: 30rem;
+  width: 200%;
 }
 #hero .apps {
   width: 40%;
@@ -11255,7 +11255,7 @@ body a {
   height: 500px;
   width: 100%;
   background: linear-gradient(90deg, #143169, #004076, #004d7d, #005a7f, #00667c, #007175, #007b6b, #1b8461);
-  clip-path: polygon(0 35%, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 40%, 100% 0, 100% 100%, 0 100%);
 }
 
 footer {
