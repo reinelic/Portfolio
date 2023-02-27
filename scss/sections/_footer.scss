@@ -5,21 +5,32 @@
   color: $secondary;
   font-size: 1.5rem;
   margin-top: 10rem;
-  color: white;
+  color: #f1f6f9;
   height: 500px;
   width: 100%;
 
   background: linear-gradient(
     90deg,
-    #143169,
-    #004076,
-    #004d7d,
-    #005a7f,
-    #00667c,
-    #007175,
-    #007b6b,
-    #1b8461
+    #041838,
+    #002242,
+    #002d4b,
+    #003752,
+    #004259,
+    #004c5e,
+    #005762,
+    #156166
   );
+  // background: linear-gradient(
+  //   90deg,
+  //   #143169,
+  //   #004076,
+  //   #004d7d,
+  //   #005a7f,
+  //   #00667c,
+  //   #007175,
+  //   #007b6b,
+  //   #1b8461
+  // );
 
   // background: linear-gradient(
   //   90deg,
@@ -32,7 +43,7 @@
   //   #008b76,
   //   #1b8461
   // );
-  clip-path: polygon(0 40%, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 43%, 100% 0, 100% 100%, 0 100%);
 }
 
 footer {
@@ -57,8 +68,11 @@ footer {
   }
 
   .email {
+    top: 3rem;
     position: relative;
     left: 2rem;
+    color: #f1f6f9;
+    font-weight: 700;
   }
 
   .box {
