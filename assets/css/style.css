@@ -11132,6 +11132,7 @@ body {
 #project {
   font-size: 1rem;
   color: #56bc9a;
+  font-weight: 500;
 }
 #project .colorblock {
   height: 400px;
@@ -11150,6 +11151,9 @@ body {
 }
 #project .card {
   background-color: #eff7fa;
+}
+#project .card img {
+  width: 50%;
 }
 #project .project_row {
   position: relative;

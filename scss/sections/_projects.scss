@@ -7,6 +7,7 @@ body {
 #project {
   font-size: 1rem;
   color: $secondary;
+  font-weight: 500;
 
   .colorblock {
     height: 400px;
@@ -24,8 +25,13 @@ body {
       z-index: 3;
     }
   }
+
   .card {
     background-color: #eff7fa;
+
+    img {
+      width: 50%;
+    }
   }
   .project_row {
     position: relative;
